@@ -2,6 +2,7 @@
 Imports System.IO
 Imports System.Drawing.Imaging
 Module SQLcon
+'Database Connection
     Public con As MySqlConnection = New MySqlConnection("server= localhost;Port=3306; database=librarymngt; username= root; password=sms")
     Public result1 As Integer
     Public schlname As String
